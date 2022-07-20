@@ -14,7 +14,9 @@ body {
 
 
 
-/* Top Banner Styles */
+
+
+
 
 .top-banner {
     display: flex;
@@ -56,7 +58,11 @@ body {
 }
 
 
-/* Match Blog Styles */
+
+
+
+
+
 
 .match-blog {
     margin-bottom: 130px;
@@ -75,7 +81,7 @@ body {
 }
 
 
-.upcoming {
+.blog {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -97,7 +103,7 @@ body {
     margin: 5px;
 }
 
-.blog {
+.upcoming {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -108,12 +114,16 @@ body {
     margin: 5px;
 }
 
+
+
+
+
 .transfer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 10px;
-    margin-left: 24px;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-left: 40px;
 }
 
 .transfer-live {
@@ -122,10 +132,16 @@ body {
     border-radius: 10px;
 }
 
-.transfer-upload-info {
+
+.flag-img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* margin-bottom: 100px; */
+}
+
+.match-details {
+    text-align: center;
 }
 
 
@@ -156,8 +172,10 @@ hr {
     justify-content: space-evenly;
     font-size: 16px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 130px;
 }
+
+
 
 .social-site {
     text-align: center;
@@ -170,34 +188,3 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
 }
-
-/* Media Queries */
-
-/* Responsive for tablet or medium devices */
-
-
-/* @media only screen and (min-width:688px) and (max-width:992px) {
-    .match-blog {
-        width: 100%;
-    }
-
-    .top-banner {
-        display: flex;
-        flex-direction: column;
-    }
-} */
-
-
-
-
-
-/* Responsive for Mobile or small devices */
-
-/* @media only screen and (max-width:688px) {
-    .top-banner {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-} */
